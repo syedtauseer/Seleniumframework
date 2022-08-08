@@ -27,6 +27,6 @@ public class ValidLogin extends BaseTest {
 		boolean result = ett.verifyPageTitle(wait, eTitle);
 		Assert.assertTrue(result, "HomePage Is Not Displayed");
 		test.pass("HomePage Is Displayed");
-		Reporter.log("HomePage Is Displayed");
+		Reporter.log("HomePage Is Displayed",true);
 	}
 }
